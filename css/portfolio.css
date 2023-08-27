@@ -67,7 +67,7 @@ nav a {
     border: 0;
     background: #FD6E0A;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -215,7 +215,31 @@ main {
 /* footer related styles */
 footer {
     display: flex;
+    gap: 100px;
     background: #FFF8F3;
     margin-top: 100px;
     padding: 130px 200px;
+
+}
+
+.social-links a {
+    margin-right: 25px;
+
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
 }

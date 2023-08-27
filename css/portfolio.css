@@ -154,10 +154,29 @@ main {
     display: flex;
     justify-content: space-between;
     margin: 30px;
+    gap: 24px;
 }
 
 .skill {
     padding: 30px;
-    gap: 24px;
 
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(150, 88, 7, 0.781);
+
+
+}
+
+/* resume style */
+.resume-colum-title {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
 }

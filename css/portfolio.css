@@ -12,6 +12,7 @@ body {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+
 }
 
 .section-description {
@@ -77,10 +78,11 @@ nav a {
 /* header styles */
 .header {
     background-color: #FFF8F3;
-    background-image: url(/images/header_bg.png);
+    background-image: url('/images/header_bg.png'),
+        url('/images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 550px 380px;
+    background-position: bottom right, top left;
+    background-size: 620px 380px, 80px 450px;
 
 }
 
